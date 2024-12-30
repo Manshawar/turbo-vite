@@ -31,8 +31,6 @@ export class Upload {
 
 
     let { fileName, hash } = req.query;
-    hash = "2aa842550e26f4a2c28c2a181f7f847b";
-    fileName = "MediaCreationTool_22H2.exe";
     const ext = path.extname(fileName as string);
     const fileNameStart = (fileName as string).split(ext)[0];
     try {
